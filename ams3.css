@@ -1,0 +1,35 @@
+body{
+    width: 1500px;
+    background-color: azure;
+}
+.top{
+    width: 1500px;
+    text-align: left;
+    height: 35 px;
+    background: aliceblue;
+}
+.dh{
+    background-color: black;
+    height: 30px;
+}
+.conten{
+    height: 300px;
+    width: 310px;
+    float: left;
+    margin: 30px;
+    text-align: center;
+    margin-block-end: 450px;
+}
+.pname{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.img{
+    width: 310px;
+    height: 470px;
+}
+.pmoney{
+    font-weight: bolder;
+    font-size: 25px;
+}
