@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.section{
+    width: 100%;
+    float: left;
+    height: 700px;
+    background-image: url("https://www.teahub.io/photos/full/237-2376520_twitter-header-wallpapers-minimalist-dual-monitor-wallpaper-4k.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+}
+.logo{
+    float: left;
+    width: 20%;
+    margin-left: 200px;
+    margin-top: 50px ;
+}
+.logo a{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 55px;
+    font-synthesis: weight;
+    text-decoration: none;
+    color: white;
+}
+.toplinks{
+    float: left;
+    margin-left:800px;
+    margin-top: -100px;
+    width:40%;
+}
+.toplinks ul{
+    list-style-type: none;
+    float: left;
+
+}
+.toplinks li{
+    float: right ;
+    text-align: center;
+    font-weight: bolder;
+    padding: 20px;
+}
+.toplinks a{
+   text-align: left;
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+}
+.icon{
+    width: 20%;
+    float: right;
+    margin-top: -100px;
+}
+.icon a{
+    text-align: left;
+    padding: 10px;
+}
+.content{
+    float: left;
+    margin-top: 100px;
+    margin-left:600px;
+}
+h1{
+    text-align: center;
+    font-weight:400;
+    font-size: 80px;
+    color: white;
+}
+.content p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.read{
+    float: left;
+   width: 100px;
+    height: 30px;
+    margin-top: 20px;
+margin-left: 370px;
+}
+.read h2{
+    position: relative;
+    padding: 3px;
+    text-align: center;
+     width: 100px;
+    height: 30px;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
+}
+.bottom{
+    width: 80%;
+}
+.bt{
+    float: left;
+    width: 20%;
+    height: 300px;
+    background-color: snow;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-block-end: 20px;
+
+}
