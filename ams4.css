@@ -19,7 +19,7 @@ body{
     background-image: url("https://www.teahub.io/photos/full/237-2376520_twitter-header-wallpapers-minimalist-dual-monitor-wallpaper-4k.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-   border-top-right-radius: 150px;
+    border-top-right-radius: 150px;
     border-top-left-radius: 150px;
 }
 .logo{
@@ -136,7 +136,7 @@ margin-left: 370px;
     margin-top: 120px;
     margin-left: -250px;
     border-radius: 10px;
-    background-color: #aabbcc;
+    background-color:snow;
 }
 .od a {
     top:3px;
