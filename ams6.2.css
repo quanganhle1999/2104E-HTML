@@ -1,0 +1,102 @@
+header{
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: darkblue;
+    height: 70px;
+    color: white;
+    z-index: 1000;
+    backface-visibility: hidden;
+}
+body{
+    background-color:midnightblue;
+}
+.logo{ float: left;
+}
+.logo a {
+    font-size: 24px;
+    margin-left:150px;
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+.trending p{
+    padding: 25px;
+}
+main{
+
+    text-decoration:none;
+    text-align: center;
+    margin-top: 100px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+main h3{
+    color: white;
+    text-align:left;
+}
+.content{
+    background-color: midnightblue;
+}
+.content a{
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.content img{
+    width: 100%;
+    object-fit: cover;
+}
+main h3{
+   color: aqua;
+}
+.pade{
+    margin-top: 30px;
+    float: none;
+    margin-right: auto;
+    margin-left:auto;
+    width: 200px;
+    text-decoration: none;
+}
+.pade a{
+    text-decoration: none;
+    color: white;
+}
+.hr{
+    margin-top: 50px;
+}
+.song{
+    text-align: center;
+    width: 100%;
+    background-color: midnightblue;
+}
+.song h4{
+    color: white;
+    font-size: 24px;
+}
+.song h5{
+    color: white;
+    font-size: 20px;
+}
+.song p{
+    color: white;
+}
+footer{
+    color: white;
+    text-align: left;
+}
+footer a{
+    color:aqua;
+    text-decoration:aqua;
+}
+footer img{
+    object-fit: cover;
+    width: 150px;
+    height: 40px ;
+}
