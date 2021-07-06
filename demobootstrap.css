@@ -1,0 +1,19 @@
+.box{
+    float: left;
+    padding: 25px
+}
+.c1{
+    background-color: #222222;
+    padding: 15px;
+    margin: 15px;
+}
+.c2{ background-color: chartreuse;
+    padding: 15px;
+    margin: 15px;
+
+}
+.c3{
+    margin: 15px;
+    background-color: red;
+    padding: 15px;
+}
