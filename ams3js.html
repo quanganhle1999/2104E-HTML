@@ -7,10 +7,33 @@
 <body>
 <div class="row" id="row">
 </div>
-<div class="b" id="b"></div>
+<section class="col-md-12">
+    <div class="container">
+        <h1 id="food-name">Tên món ăn</h1>
+        <img class="img-thumbnail" src="#" id="food-image"/>
+        <h2 id="food-price">gia tien</h2>
+        <p id="food-desc">Mo ta mon an</p>
+    </div>
+</section>
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+    $.ajax({
+        url:"https://foodgroup.herokuapp.com/api/food/1",
+        method:"GET",
+        success:function (rs){
+            var name = rs.data.name;
+            var img = rs.data.image;
+            var price = rs.data.price;
+            var des = rs.data.description;
+            $("#food-name").text(name); // var f = $("#food-name");f.text(name):
+            $("#food-image").attr("src",img);// chuyeenr gia tri src bang img
+            $("#food-price").text(price);
+            $("#food-desc").text(des);
+        }
+    });
+</script>
 
 <button type="button" onclick="loadMore()">Load more</button>
-<button type="button" onclick="load()">Load more</button>
 <script type="text/javascript" src="js/demojson.js"></script>
 <script src="js/jquery-3.6.0.min.js"></script>
 </body>
