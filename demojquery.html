@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo jq</title>
+</head>
+<body>
+<h1 id="title">Bộ Y tế trình Thủ tướng chỉ thị mới về phòng, chống dịch Covid-19</h1>
+<button type="button" onclick="hide();">hide</button>
+<button type="button" onclick="show()">show</button>
+<button type="button" onclick="onoff()">on off</button>
+<p class="js">Bộ Y tế vừa trình Thủ tướng ban hành chỉ thị mới về phòng, chống dịch Covid-19 khi dịch bùng phát trên diện rộng, phức tạp, với sự xuất hiện của biến chủng Delta đang lây lan mạnh tại TP HCM và nhiều địa phương khác.</p>
+<p class="js">Bộ Y tế vừa trình Thủ tướng ban hành chỉ thị mới về phòng, chống dịch Covid-19 khi dịch bùng phát trên diện rộng, phức tạp, với sự xuất hiện của biến chủng Delta đang lây lan mạnh tại TP HCM và nhiều địa phương khác.</p>
+<p class="js">Bộ Y tế vừa trình Thủ tướng ban hành chỉ thị mới về phòng, chống dịch Covid-19 khi dịch bùng phát trên diện rộng, phức tạp, với sự xuất hiện của biến chủng Delta đang lây lan mạnh tại TP HCM và nhiều địa phương khác.</p>
+<p class="js">Bộ Y tế vừa trình Thủ tướng ban hành chỉ thị mới về phòng, chống dịch Covid-19 khi dịch bùng phát trên diện rộng, phức tạp, với sự xuất hiện của biến chủng Delta đang lây lan mạnh tại TP HCM và nhiều địa phương khác.</p>
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+    var t = $("#title");// day la 1 opject cua jquery//
+    t.css({
+        "color":"red"
+    })
+    t.text("hello guys");
+    t.html("<i>hello fucking guys</i>");
+    var js = $(".js")// la 1 mảng opject cp 1 doi tuong dai dien
+    js.css({
+        "color": " green"
+    })
+    function hide(){
+        // js.hide();an
+        // js.fadeIn(500);
+        js.slideUp();
+    }
+    function show(){
+        // js.show();hien
+        // js.fadeOut(500);
+        js.slideDown();
+    }
+    function onoff(){
+        js.slideToggle();
+    }
+</script>
+</body>
+</html>
