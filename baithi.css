@@ -1,0 +1,37 @@
+body{
+    width: 100%;
+    background-color: #444444;
+    font-family: Roboto;
+}
+input{
+    margin-right:20px;
+ }
+.buttom{
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    border: solid black 1px;
+    width: 40%;
+    background-color: #aabbcc;
+}
+.col-md-4{
+    border: 1px solid;
+}
+.col-md-4 input{
+
+}
+.buttom{
+    border:1px solid;
+    margin-left:-15px;
+    float: left;
+    width:40%;
+    background-color: #aabbcc;
+}
+.col-md-7{
+    border: solid black 1px;
+}
+.b{
+    width:2000px;
+}
