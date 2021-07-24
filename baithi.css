@@ -30,5 +30,6 @@ input{
     border: solid black 1px;
 }
 .b{
-    width:1500px;
+    margin-left: 30px;
+    width:2000px;
 }
